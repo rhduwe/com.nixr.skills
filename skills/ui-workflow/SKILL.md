@@ -210,6 +210,18 @@ It does not require consolidating accepted designs onto one page.
 If cleanup requires a substantive design change, return to user review.
 Do not download the revised archive or commit until the user accepts the revised design.
 
+## Review scope for each round
+
+Apply this scope to design and implementation review rounds.
+Ask the user to inspect only new or changed items.
+Include other elements only when a shared change affects them.
+Keep unchanged screens as optional context, outside the approval count and normal review sequence.
+State what changed and which earlier version it changes.
+Preserve earlier acceptance for unchanged items.
+After feedback, request review only for the affected items.
+Do not infer acceptance of pending items from earlier acceptance or silence.
+Complete the task only after the user explicitly accepts all items that still need approval.
+
 ## Workflow: Establish the UI foundation
 
 1. Establish the project's purpose, users, principal tasks, and target platforms before presenting style alternatives. Identify runtime and tools/editor needs, whether and where XR is required, supported input methods and their scope, accessibility needs, and relevant constraints. Apply the existing-project inspection rule above; reuse choices explicitly confirmed for the desired design and resolve only missing choices needed for it.
